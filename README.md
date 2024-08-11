@@ -97,9 +97,9 @@
 <h2>Recommendation</h2>
 
 <ul>
-    <li><strong>Decreasing the average waiting time in the hospital</strong> Since the average waiting time in the hospital was more than 30mins the hospital should try to decrease it to increase the flow of patients.</li>
-    <li><strong>Increase the Satisfaction Score</strong> Since the satisfacton score  of the hospital is low, we can infer that the hospital need to improve its service to satisfy their patiensts.</li>
-    <li><strong>Increase the percentage of administrative patients</strong> Since the administrative patients gets the medical benefits it decreases the profit of the hospital. So the hospital should work towards increasing the ratio of non administrative patients.</li>
+    <li><strong>Decreasing the average waiting time in the hospital:</strong> Since the average waiting time in the hospital was more than 30mins the hospital should try to decrease it to increase the flow of patients.</li>
+    <li><strong>Increase the Satisfaction Score:</strong> Since the satisfacton score  of the hospital is low, we can infer that the hospital need to improve its service to satisfy their patiensts.</li>
+    <li><strong>Increase the percentage of administrative patients:</strong> Since the administrative patients gets the medical benefits it decreases the profit of the hospital. So the hospital should work towards increasing the ratio of non administrative patients.</li>
 </ul>
 
 
