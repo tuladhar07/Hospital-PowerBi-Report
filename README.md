@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NT Medical Report Dashboard</title>
 </head>
 <body>
 
@@ -33,6 +32,20 @@
     <li><code>visit_time</code>: The time of the visit, categorized into AM or PM.</li>
     <li><code>referral_type</code>: The type of referral given, if any.</li>
 </ul>
+
+<h3>New Measures Created from the given data columns</h3>
+<ul>
+    <li><code>Total Patients</code>: Total patients that visited the hospital..</li>
+    <li><code>Average Rating/code>: Average of the rating provided by the patients.</li>
+    <li><code>Referral %</code>: Indicates the ratio of patients that were referred to different department.</li>
+    <li><code>Gender Percentage of patients</code>: The patient's gender ratio.</li>
+    <li><code>Types of Patients.</code>: Finding the ratio of patients that were administrative and non administrative.</li>
+    <li><code>Avg. wait_time</code>: The average  amount of time the patient had to waited before being attended to.</li>
+    
+</ul>
+
+
+
 
 <h2>Key Features</h2>
 
@@ -82,7 +95,23 @@
     <li><strong>Heatmap:</strong> A heatmap that correlates average satisfaction and wait time with different patient demographics, particularly focusing on race and age group.</li>
 </ul>
 
+<h2>Recommendation</h2>
 
+<ul>
+    <li><strong>Decreasing the average waiting time in the hospital</strong> Since the average waiting time in the hospital was more than 30mins the hospital should try to decrease it to increase the flow of patients.</li>
+    <li><strong>Increase the Satisfaction Score</strong> Since the satisfacton score  of the hospital is low, we can infer that the hospital need to improve its service to satisfy their patiensts.</li>
+    <li><strong>Increase the percentage of administrative patients</strong> Since the administrative patients gets the medical benefits it decreases the profit of the hospital. So the hospital should work towards increasing the ratio of non administrative patients.</li>
+</ul>
+
+
+
+<h2>Future Work</h2>
+
+<ul>
+    <li><strong>Integration with Real-Time Data:</strong> Incorporate live data feeds from hospital systems to update the dashboard in real-time.</li>
+    <li><strong>Predictive Analytics:</strong> Implement machine learning models to predict patient satisfaction and wait times based on incoming data.</li>
+    <li><strong>Expanded Demographics:</strong> Include additional demographic factors such as income level, education, and geographic location.</li>
+</ul>
 
 <h2>Usage</h2>
 
@@ -94,15 +123,5 @@ git clone https://github.com/tuladhar07/nt-medical-report.git
 cd nt-medical-report
 </code>
 </pre>
-
-<h2>Future Work</h2>
-
-<ul>
-    <li><strong>Integration with Real-Time Data:</strong> Incorporate live data feeds from hospital systems to update the dashboard in real-time.</li>
-    <li><strong>Predictive Analytics:</strong> Implement machine learning models to predict patient satisfaction and wait times based on incoming data.</li>
-    <li><strong>Expanded Demographics:</strong> Include additional demographic factors such as income level, education, and geographic location.</li>
-</ul>
-
-
 </body>
 </html>
