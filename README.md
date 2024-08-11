@@ -12,11 +12,27 @@
 <p>This repository contains the code, data, and documentation for the NT Medical Report Dashboard, a comprehensive visualization tool designed to provide insights into patient visits, satisfaction, and demographics in a hospital setting. The dashboard visualizes key metrics such as total patient visits, average satisfaction, wait times, patient demographics, and more.</p>
 
 <!-- Dashboard Screenshot -->
-<img src="path-to-your-image/hospital.png" alt="NT Medical Report Dashboard" width="1000">
+<img src="hospital.png" alt="NT Medical Report Dashboard" width="1000">
 
 <h2>Overview</h2>
 
 <p>The NT Medical Report Dashboard provides a detailed view of the hospital's performance based on patient visits and satisfaction metrics. The dashboard is segmented into various sections that offer insights into different aspects of hospital operations, including patient demographics, visit types, and referral patterns.</p>
+
+
+<h2>Data</h2>
+
+<p>The data used in this project is stored in a CSV file named <code>Hospital ER.csv</code>. This file includes information on patient visits, demographic details, satisfaction scores, wait times, and referral data. The dashboard visualizes this data to provide actionable insights.</p>
+
+<h3>Data Columns:</h3>
+<ul>
+    <li><code>patient_race</code>: The race of the patient.</li>
+    <li><code>age_group</code>: The age group of the patient.</li>
+    <li><code>appointment_type</code>: Indicates whether the appointment was administrative or non-administrative.</li>
+    <li><code>satisfaction_score</code>: The patient's satisfaction score.</li>
+    <li><code>wait_time</code>: The amount of time the patient waited before being attended to.</li>
+    <li><code>visit_time</code>: The time of the visit, categorized into AM or PM.</li>
+    <li><code>referral_type</code>: The type of referral given, if any.</li>
+</ul>
 
 <h2>Key Features</h2>
 
@@ -66,20 +82,7 @@
     <li><strong>Heatmap:</strong> A heatmap that correlates average satisfaction and wait time with different patient demographics, particularly focusing on race and age group.</li>
 </ul>
 
-<h2>Data</h2>
 
-<p>The data used in this project is stored in a CSV file named <code>Hospital ER.csv</code>. This file includes information on patient visits, demographic details, satisfaction scores, wait times, and referral data. The dashboard visualizes this data to provide actionable insights.</p>
-
-<h3>Data Columns:</h3>
-<ul>
-    <li><code>patient_race</code>: The race of the patient.</li>
-    <li><code>age_group</code>: The age group of the patient.</li>
-    <li><code>appointment_type</code>: Indicates whether the appointment was administrative or non-administrative.</li>
-    <li><code>satisfaction_score</code>: The patient's satisfaction score.</li>
-    <li><code>wait_time</code>: The amount of time the patient waited before being attended to.</li>
-    <li><code>visit_time</code>: The time of the visit, categorized into AM or PM.</li>
-    <li><code>referral_type</code>: The type of referral given, if any.</li>
-</ul>
 
 <h2>Usage</h2>
 
@@ -87,7 +90,7 @@
 
 <pre>
 <code>
-git clone https://github.com/your-username/nt-medical-report.git
+git clone https://github.com/tuladhar07/nt-medical-report.git
 cd nt-medical-report
 </code>
 </pre>
@@ -100,20 +103,6 @@ cd nt-medical-report
     <li><strong>Expanded Demographics:</strong> Include additional demographic factors such as income level, education, and geographic location.</li>
 </ul>
 
-<h2>Contributing</h2>
-
-<p>Contributions are welcome! Please fork this repository and submit a pull request with your changes.</p>
-
-<h2>License</h2>
-
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-<h2>Acknowledgments</h2>
-
-<ul>
-    <li>The hospital's data management team for providing the dataset.</li>
-    <li>The open-source community for providing tools and resources that made this project possible.</li>
-</ul>
 
 </body>
 </html>
