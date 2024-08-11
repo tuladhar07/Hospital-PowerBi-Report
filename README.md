@@ -36,12 +36,11 @@
 <h3>New Measures Created from the given data columns</h3>
 <ul>
     <li><code>Total Patients</code>: Total patients that visited the hospital..</li>
-    <li><code>Average Rating/code>: Average of the rating provided by the patients.</li>
+    <li><code>Average Rating</code>: Average of the rating provided by the patients.</li>
     <li><code>Referral %</code>: Indicates the ratio of patients that were referred to different department.</li>
     <li><code>Gender Percentage of patients</code>: The patient's gender ratio.</li>
     <li><code>Types of Patients.</code>: Finding the ratio of patients that were administrative and non administrative.</li>
-    <li><code>Avg. wait_time</code>: The average  amount of time the patient had to waited before being attended to.</li>
-    
+    <li><code>Avg. wait_time</code>: The average  amount of time the patient had to waited before being attended to.</li>    
 </ul>
 
 
